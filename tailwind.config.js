@@ -19,6 +19,7 @@ export default {
           section: '#F8FAFC',
           border: '#E5E7EB',
           dark: '#111827',
+
         }
       },
       fontFamily: {
