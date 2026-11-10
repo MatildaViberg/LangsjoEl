@@ -7,10 +7,12 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-8 border-b border-gray-200">
 
           <div>
-            <span className="text-base font-bold text-gray-900 block">
-              LÅNGSJÖ <span className="text-[#006900]">EL AB</span>
-            </span>
-            <p className="text-xs text-gray-500 mt-1">
+            <img
+              src="/logo.jpg"
+              alt="Långsjö El AB"
+              className="h-10 w-auto object-contain mix-blend-multiply mb-2"
+            />
+            <p className="text-xs text-gray-500">
               Leverans och installation av vitvaror i Storstockholm
             </p>
           </div>
